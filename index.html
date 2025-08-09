@@ -7,14 +7,11 @@
     <title>Martina Cernuschi | Locutora Profesional</title>
     <meta
       name="description"
-      content="Locutora profesional con experiencia en radio, TV, doblaje y voz en off. Escuchá el demo de voz y mirá entrevistas y galería."
+      content="Locutora profesional con experiencia en radio, TV, doblaje y voz en off. Demo de voz, entrevistas y galería."
     />
 
     <!-- SEO/OG -->
-    <link
-      rel="canonical"
-      href="https://martu-locutora-alv1999-alvaros-projects-0378d66e.vercel.app/"
-    />
+    <link rel="canonical" href="https://martu-locutora.vercel.app/" />
     <meta
       property="og:title"
       content="Martina Cernuschi | Locutora Profesional"
@@ -24,18 +21,18 @@
       content="Demo de voz, entrevistas y portfolio."
     />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/assets/img/martina7.jpeg" />
+    <meta property="og:image" content="assets/img/martina7.jpeg" />
     <meta property="og:image:alt" content="Retrato de Martina Cernuschi" />
     <meta name="twitter:card" content="summary_large_image" />
 
     <!-- Favicon -->
-    <link rel="icon" href="/assets/favicon.ico" />
+    <link rel="icon" href="assets/favicon.ico" />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
 
@@ -50,101 +47,139 @@
       rel="stylesheet"
     />
 
-    <!-- Tu CSS -->
-    <link rel="stylesheet" href="/css/styles.css?v=5" />
+    <!-- CSS propio -->
+    <link rel="stylesheet" href="css/styles.css?v=12" />
   </head>
 
   <body>
-    <header class="py-5 text-center" data-aos="fade-down">
-      <h1 class="mb-2">Martina Cernuschi</h1>
-      <p class="mb-0">Locutora profesional de alto impacto</p>
+    <!-- HERO -->
+    <header class="site-hero text-center" data-aos="fade-down">
+      <div class="container-lg">
+        <h1 class="hero-title mb-2">Martina Cernuschi</h1>
+        <p class="hero-subtitle mb-0">Locutora profesional de alto impacto</p>
+      </div>
     </header>
 
     <div class="gradient-line" aria-hidden="true"></div>
 
-    <section class="container sobre-mi py-5" data-aos="fade-up">
-      <div class="row align-items-center g-4">
-        <div class="col-md-5 text-center" data-aos="zoom-in">
-          <img
-            src="/assets/img/martina7.jpeg"
-            alt="Martina Cernuschi"
-            class="img-fluid rounded-circle shadow-lg perfil-img"
-            width="480"
-            height="480"
-          />
-        </div>
-        <div class="col-md-7">
-          <h2>Sobre mí</h2>
-          <p class="lead">
-            Soy <strong>Martina</strong>, locutora profesional apasionada por la
-            voz y la comunicación. Con experiencia en
-            <span class="resaltado">radio</span>,
-            <span class="resaltado">televisión</span>,
-            <span class="resaltado">doblaje</span> y redes sociales, transformo
-            ideas en palabras con estilo, emoción y profesionalismo.
-          </p>
-          <div class="highlight-box" data-aos="fade-right">
-            <p class="mb-0">
-              <strong>+5 años</strong> dando voz a marcas, eventos y proyectos
-              creativos.
-            </p>
+    <!-- SOBRE MÍ -->
+    <section id="sobre-mi" class="py-section sobre-mi" data-aos="fade-up">
+      <div class="container-lg">
+        <div class="about-wrap">
+          <div class="row align-items-center g-4">
+            <!-- FOTO -->
+            <div class="col-12 col-lg-5 text-center" data-aos="zoom-in">
+              <figure class="about-photo m-0 d-inline-block">
+                <img
+                  src="assets/img/martina7.jpeg"
+                  alt="Martina Cernuschi en estudio"
+                  class="about-img"
+                  width="960"
+                  height="960"
+                  decoding="async"
+                  loading="eager"
+                />
+              </figure>
+            </div>
+
+            <!-- TEXTO + PILL (debajo del texto) -->
+            <div class="col-12 col-lg-7">
+              <h2 class="section-title m-0">Sobre mí</h2>
+              <p class="lead copy mt-2">
+                Soy <strong>Martina</strong>, locutora profesional apasionada
+                por la voz y la comunicación. Con experiencia en
+                <span class="resaltado">radio</span>,
+                <span class="resaltado">televisión</span>,
+                <span class="resaltado">doblaje</span> y redes sociales,
+                transformo ideas en palabras con estilo, emoción y
+                profesionalismo.
+              </p>
+              <!-- Pill fijo acá, siempre debajo del texto -->
+              <div class="experience-pill mt-2">
+                +5 años dando voz a marcas, eventos y proyectos creativos.
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container servicios py-5" data-aos="fade-up">
-      <h2 class="text-center mb-5">Servicios</h2>
-      <div class="row g-4">
-        <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="50">
+    <!-- SERVICIOS -->
+    <section
+      id="servicios"
+      class="container-lg py-section servicios"
+      data-aos="fade-up"
+    >
+      <h2 class="section-title text-center mb-4">Servicios</h2>
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 g-4">
+        <div class="col" data-aos="zoom-in" data-aos-delay="50">
           <div class="servicio-card h-100">
-            <div class="icono-servicio" aria-hidden="true">🎙️</div>
-            <h5>Locución Publicitaria</h5>
-            <p>
+            <div class="servicio-head">
+              <div class="icono-servicio" aria-hidden="true">🎙️</div>
+              <h3 class="servicio-title h5">Locución Publicitaria</h3>
+            </div>
+            <p class="servicio-text">
               Voz profesional para spots, comerciales y campañas
               institucionales.
             </p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="100">
+
+        <div class="col" data-aos="zoom-in" data-aos-delay="100">
           <div class="servicio-card h-100">
-            <div class="icono-servicio" aria-hidden="true">📹</div>
-            <h5>Voz para Videos</h5>
-            <p>Voz para YouTube, reels, TikTok y presentaciones online.</p>
+            <div class="servicio-head">
+              <div class="icono-servicio" aria-hidden="true">📹</div>
+              <h3 class="servicio-title h5">Voz para Videos</h3>
+            </div>
+            <p class="servicio-text">
+              Voz para YouTube, reels, TikTok y presentaciones online.
+            </p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="150">
+
+        <div class="col" data-aos="zoom-in" data-aos-delay="150">
           <div class="servicio-card h-100">
-            <div class="icono-servicio" aria-hidden="true">📺</div>
-            <h5>Spots de Radio y TV</h5>
-            <p>
+            <div class="servicio-head">
+              <div class="icono-servicio" aria-hidden="true">📺</div>
+              <h3 class="servicio-title h5">Spots de Radio y TV</h3>
+            </div>
+            <p class="servicio-text">
               Locución clara y expresiva para medios tradicionales y digitales.
             </p>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+
+        <div class="col" data-aos="zoom-in" data-aos-delay="200">
           <div class="servicio-card h-100">
-            <div class="icono-servicio" aria-hidden="true">🎧</div>
-            <h5>Doblaje y Voz en Off</h5>
-            <p>Personajes y narraciones para proyectos audiovisuales.</p>
+            <div class="servicio-head">
+              <div class="icono-servicio" aria-hidden="true">🎧</div>
+              <h3 class="servicio-title h5">Doblaje y Voz en Off</h3>
+            </div>
+            <p class="servicio-text">
+              Personajes y narraciones para proyectos audiovisuales.
+            </p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="container py-5" data-aos="fade-up">
-      <h2>Demo de Voz</h2>
-      <p>Escuchá una muestra del estilo profesional de Martina:</p>
+    <!-- DEMO DE VOZ -->
+    <section id="demo" class="container-lg py-section" data-aos="fade-up">
+      <h2 class="section-title">Demo de Voz</h2>
+      <p class="text-muted-2">
+        Escuchá una muestra del estilo profesional de Martina.
+      </p>
 
       <div class="audio-card" data-aos="zoom-in">
         <div class="audio-card__inner">
           <div class="audio-card__left">
             <img
-              src="/assets/img/martina5.jpeg"
+              src="assets/img/martina5.jpeg"
               alt="Cover demo de voz"
               class="audio-cover"
               width="96"
               height="96"
+              loading="lazy"
             />
             <div>
               <h3 class="h6 mb-1">Demo Conducción</h3>
@@ -157,13 +192,15 @@
           </div>
 
           <div class="audio-card__right">
-            <audio id="demo-audio" controls class="w-100" preload="metadata">
-              <source
-                src="/DEMO%20CONDUCCION%20MARTINA%20CERNUSCHI.mp3"
-                type="audio/mpeg"
-              />
-              Tu navegador no soporta el reproductor de audio.
-            </audio>
+            <div class="audio-container">
+              <audio id="demo-audio" controls class="w-100" preload="metadata">
+                <source
+                  src="DEMO%20CONDUCCION%20MARTINA%20CERNUSCHI.mp3"
+                  type="audio/mpeg"
+                />
+                Tu navegador no soporta el reproductor de audio.
+              </audio>
+            </div>
 
             <div class="audio-actions">
               <button
@@ -186,7 +223,7 @@
               </button>
               <a
                 class="btn-primary-lite"
-                href="/DEMO%20CONDUCCION%20MARTINA%20CERNUSCHI.mp3"
+                href="DEMO%20CONDUCCION%20MARTINA%20CERNUSCHI.mp3"
                 download
                 >Descargar</a
               >
@@ -196,8 +233,13 @@
       </div>
     </section>
 
-    <section class="container py-5" data-aos="fade-up">
-      <h2>Entrevistas</h2>
+    <!-- ENTREVISTAS -->
+    <section
+      id="entrevistas"
+      class="container-lg py-section"
+      data-aos="fade-up"
+    >
+      <h2 class="section-title">Entrevistas</h2>
       <div class="ratio ratio-16x9">
         <iframe
           src="https://www.youtube.com/embed/Y_OjOhxdARo"
@@ -209,17 +251,18 @@
       </div>
     </section>
 
-    <section class="container my-5" data-aos="fade-up">
-      <h2>Galería</h2>
+    <!-- GALERÍA -->
+    <section id="galeria" class="container-lg py-section" data-aos="fade-up">
+      <h2 class="section-title">Galería</h2>
       <div id="gallery-root"></div>
-      <noscript>
-        <p>Activá JavaScript para ver la galería.</p>
-      </noscript>
+      <noscript><p>Activá JavaScript para ver la galería.</p></noscript>
     </section>
 
-    <footer class="py-4 text-center">
+    <!-- FOOTER -->
+    <footer class="site-footer text-center">
       <p class="mb-0">
-        &copy; 2025 Martina Cernuschi - Todos los derechos reservados
+        &copy; <span id="year"></span> Martina Cernuschi · Todos los derechos
+        reservados
       </p>
     </footer>
 
@@ -260,72 +303,74 @@
     ></script>
 
     <script>
-      window.addEventListener("DOMContentLoaded", () => AOS.init());
+      // AOS + año footer
+      window.addEventListener("DOMContentLoaded", () => {
+        AOS.init();
+        const y = document.getElementById("year");
+        if (y) y.textContent = new Date().getFullYear();
+      });
     </script>
 
     <!-- Galería React -->
     <script type="text/babel">
       const images = [
         {
-          src: "/assets/img/martina1.jpeg",
+          src: "assets/img/martina1.jpeg",
           alt: "Martina en entrevista",
           title: "Martina en entrevista",
         },
         {
-          src: "/assets/img/martina2.jpeg",
+          src: "assets/img/martina2.jpeg",
           alt: "Martina en alfombra roja",
           title: "Martina en alfombra roja",
         },
         {
-          src: "/assets/img/martina3.jpeg",
+          src: "assets/img/martina3.jpeg",
           alt: "Martina en evento radial",
           title: "Martina en evento radial",
         },
         {
-          src: "/assets/img/martina4.jpeg",
+          src: "assets/img/martina4.jpeg",
           alt: "Cobertura de show",
           title: "Cobertura de show",
         },
         {
-          src: "/assets/img/martina5.jpeg",
+          src: "assets/img/martina5.jpeg",
           alt: "En estudio de radio",
           title: "En estudio de radio",
         },
         {
-          src: "/assets/img/martina6.jpeg",
+          src: "assets/img/martina6.jpeg",
           alt: "Operando en estudio",
           title: "Operando en estudio",
         },
         {
-          src: "/assets/img/martina7.jpeg",
+          src: "assets/img/martina7.jpeg",
           alt: "Locución en vivo",
           title: "Locución en vivo",
         },
         {
-          src: "/assets/img/martina8.jpeg",
+          src: "assets/img/martina8.jpeg",
           alt: "Entrevista en set",
           title: "Entrevista en set",
         },
         {
-          src: "/assets/img/martina9.jpeg",
+          src: "assets/img/martina9.jpeg",
           alt: "Con banda invitada",
           title: "Con banda invitada",
         },
       ];
-
       function Gallery() {
         React.useEffect(() => {
           if (window.AOS) AOS.refreshHard?.() || AOS.refresh();
-          if (window.lightbox) {
+          if (window.lightbox)
             lightbox.option({
               fadeDuration: 200,
               imageFadeDuration: 200,
               resizeDuration: 200,
               wrapAround: true,
             });
-          }
         }, []);
-
         return (
           <div className="row g-3">
             {images.map((img, i) => (
@@ -354,12 +399,8 @@
           </div>
         );
       }
-
       const rootEl = document.getElementById("gallery-root");
-      if (rootEl) {
-        const root = ReactDOM.createRoot(rootEl);
-        root.render(<Gallery />);
-      }
+      if (rootEl) ReactDOM.createRoot(rootEl).render(<Gallery />);
     </script>
 
     <!-- Audio controls -->
@@ -397,7 +438,7 @@
       })();
     </script>
 
-    <!-- Botón Light/Dark JS -->
+    <!-- Botón Light/Dark -->
     <script>
       (function () {
         const root = document.documentElement;
